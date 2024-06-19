@@ -1,0 +1,21 @@
+1.Paradigma dalam pemrograman merujuk pada pendekatan atau cara pandang dalam menulis kode. Ini mencakup aturan, konsep, dan metode yang membentuk dasar dari suatu bahasa pemrograman. Contohnya, paradigma imperatif menekankan pada urutan langkah-langkah eksekusi, sementara paradigma deklaratif lebih fokus pada apa yang ingin dicapai tanpa detail langkah-langkahnya. Ada beberapa paradigma seperti pemrograman berorientasi objek, fungsional, logika, dan lainnya, yang masing-masing menawarkan pendekatan yang berbeda dalam menyelesaikan masalah pemrograman.
+
+2.Tentu! Ini adalah konsep-konsep dasar dalam pemrograman:
+
+1. **Model Data**: Model data merujuk pada cara data disimpan, diatur, dan diakses dalam sebuah program. Ini termasuk tipe data yang digunakan (seperti integer, string, array, atau objek), struktur data (seperti array, list, stack, queue, dll.), dan cara data tersebut dimanipulasi.
+
+2. **Operator**: Operator dalam pemrograman adalah simbol atau karakter khusus yang digunakan untuk melakukan operasi tertentu pada satu atau lebih nilai atau variabel. Contoh operator termasuk operator aritmatika (+, -, *, /), operator perbandingan (==, !=, <, >), operator logika (&&, ||, !), dan lainnya.
+
+3. **Seleksi**: Seleksi, atau juga dikenal sebagai percabangan, adalah konsep yang digunakan untuk membuat keputusan berdasarkan kondisi tertentu. Ini memungkinkan program untuk melakukan tindakan yang berbeda tergantung pada apakah suatu kondisi terpenuhi atau tidak. Contoh seleksi termasuk statement if-else, switch-case, dan sebagainya.
+
+4. **Fungsi**: Fungsi adalah blok kode yang terpisah yang dapat dipanggil oleh program untuk menyelesaikan tugas tertentu. Fungsi memungkinkan pemrogram untuk mengorganisir kode secara terstruktur, mendorong pemakaian kembali kode, dan memecah program menjadi bagian-bagian yang lebih kecil dan lebih mudah dikelola. Fungsi biasanya menerima input, melakukan operasi tertentu, dan mengembalikan output.
+
+Semua konsep ini merupakan bagian penting dari pemrograman dan digunakan dalam pengembangan berbagai jenis program.
+
+3.Kode yang diberikan tidak menggunakan perulangan atau looping statement. Ini adalah contoh program sederhana untuk melakukan operasi matematika (penjumlahan, pengurangan, perkalian, pembagian) sesuai dengan pilihan pengguna.
+
+Program dimulai dengan fungsi `main()` yang memanggil fungsi `menu()`, yang kemudian menampilkan menu operasi matematika kepada pengguna. Setelah pengguna memilih operasi yang diinginkan, fungsi `menu()` memanggil fungsi yang sesuai berdasarkan pilihan pengguna dengan menggunakan `switch-case`.
+
+Setiap fungsi operasi matematika (`tambah()`, `kurang()`, `kali()`, `bagi()`) meminta pengguna untuk memasukkan dua angka, melakukan operasi yang sesuai, dan menampilkan hasilnya.
+
+Jadi, secara singkat, kode tersebut hanya menangani satu operasi matematika setelah pemanggilan `menu()`, tanpa menggunakan perulangan atau looping statement untuk memberikan pengguna opsi untuk melakukan operasi matematika lebih dari sekali.

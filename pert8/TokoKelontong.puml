@@ -1,0 +1,13 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor User as User
+
+rectangle "Toko" {
+    usecase "Menambahkan Produk" as AddProduct
+    usecase "Memproses Pembelian Produk" as ProcessPurchase
+
+    User --> AddProduct : Memasukkan data produk baru
+    User --> ProcessPurchase : Memasukkan pesanan pembelian
+}
+@enduml
